@@ -15,7 +15,9 @@ const Navbar = () => {
           alt="zoom-clone"
           className="max-sm:size-10"
         />
-        <p className="text-[26px] font-semibold max-sm:hidden">Zoom Clone</p>
+        <p className="text-[26px] text-white font-extrabold max-sm:hidden">
+          Zoom Clone
+        </p>
       </Link>
       <div className="flex-between gap-4">
         <div>

@@ -17,10 +17,13 @@ const ListCard = ({ url, title, desc, classNames, handleClick }: Cards) => {
         classNames
       )}
     >
-      <section onClick={handleClick}>
+      <section
+        onClick={handleClick}
+        className="cursor-pointer bg-dark-1 w-fit py-2 px-2 rounded-md"
+      >
         <Image src={url} width={24} height={24} alt={title} />
       </section>
-      <section>
+      <section className="flex flex-col gap-1">
         <h2 className="font-extrabold">{title}</h2>
         <p>{desc}</p>
       </section>
